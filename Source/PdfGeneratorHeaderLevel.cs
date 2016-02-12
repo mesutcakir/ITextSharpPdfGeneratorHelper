@@ -1,5 +1,3 @@
-namespace Berga.Argelogic.Database.Test.ITextSharp
-{
     public enum PdfGeneratorHeaderLevel
     {
         Default = 12,
@@ -10,4 +8,3 @@ namespace Berga.Argelogic.Database.Test.ITextSharp
         Level5 = 22,
         Level6 = 24
     }
-}

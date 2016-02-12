@@ -1,10 +1,7 @@
-using System;
-using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-
-namespace Berga.Argelogic.Database.Test.ITextSharp
-{
+	using System;
+	using System.IO;
+	using iTextSharp.text;
+	using iTextSharp.text.pdf;
     public static class ITextSharpPdfGeneratorHelper
     {
         public static Font GetTahoma(int fontSize = 12)
@@ -58,4 +55,3 @@ namespace Berga.Argelogic.Database.Test.ITextSharp
             return imgRaw;
         }
     }
-}
